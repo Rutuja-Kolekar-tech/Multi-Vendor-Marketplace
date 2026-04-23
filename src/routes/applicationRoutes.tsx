@@ -8,13 +8,11 @@ const Home = lazy(() => import("../projects/website/modules/Home/components/Home
 const Dashboard =lazy(()=>import('../projects/portal/modules/dashboard/components/Dashboard'))
 
 const websitePublicRoutes = [
-
      { path:'/home',name:'home' ,component:Home  }
 ]
 
 const portalPublicRoutes = [
     { path: '/dashboard', name: 'dashboard', component: Dashboard ,layout:false}
-
 ]
 
 

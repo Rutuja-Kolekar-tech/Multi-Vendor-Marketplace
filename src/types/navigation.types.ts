@@ -1,6 +1,7 @@
 import type { ElementType } from "react";
 
 export type MenuItem = {
+    
     id: string;
     label: string;
     icon: string | ElementType;
